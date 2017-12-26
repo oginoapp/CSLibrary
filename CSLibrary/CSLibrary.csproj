@@ -32,6 +32,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,10 +43,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="API\Win32API.cs" />
-    <Compile Include="Controls\DynamicBorderLabel.cs" />
-    <Compile Include="Controls\DynamicControlContainer.cs" />
-    <Compile Include="Controls\ImageField.cs" />
-    <Compile Include="Controls\TransparentLabel.cs" />
+    <Compile Include="Controls\DynamicBorderLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DynamicControlContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ImageField.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TransparentLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Drawing\ImageMatcher.cs" />
     <Compile Include="Extension\Extensions.cs" />
     <Compile Include="Lang\Decimal62.cs" />
