@@ -64,6 +64,7 @@
     <Compile Include="Robots\Hook\MouseHookEventArgs.cs" />
     <Compile Include="Util\SerializeClonable.cs" />
     <Compile Include="Util\StepCounter.cs" />
+    <Compile Include="Util\StringUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Forms\" />
